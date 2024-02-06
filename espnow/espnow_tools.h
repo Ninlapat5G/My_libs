@@ -8,7 +8,7 @@ struct led {
     bool state = 0;
     uint8_t mactoint[6];
   private:
-    char name[32] = "LEDD";
+    char name[32] = "LED";
     char mac[17];
   private:
   	void mac_convert();
